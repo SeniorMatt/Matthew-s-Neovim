@@ -5,17 +5,17 @@ return {
     {
         -- Theme
         -- "folke/tokyonight.nvim",
-        -- config = function()
         -- vim.cmd.colorscheme "tokyonight"
         -- enable_transparency()
-        -- end
         --"catppuccin/nvim",
-        -- config = function()
         -- vim.cmd.colorscheme "catppuccin"
-        -- end
-        "navarasu/onedark.nvim",
+        -- "navarasu/onedark.nvim",
+        -- vim.cmd.colorscheme "onedark"
+        -- "morhetz/gruvbox",
+        -- vim.cmd.colorscheme "gruvbox"
+        "kdheepak/monochrome.nvim",
         config = function()
-            vim.cmd.colorscheme "onedark"
+            vim.cmd.colorscheme "monochrome"
         end
     },
     {
