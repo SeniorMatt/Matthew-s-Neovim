@@ -13,9 +13,9 @@ return {
         -- vim.cmd.colorscheme "onedark"
         -- "morhetz/gruvbox",
         -- vim.cmd.colorscheme "gruvbox"
-        "kdheepak/monochrome.nvim",
+        "Mofiqul/vscode.nvim",
         config = function()
-            vim.cmd.colorscheme "monochrome"
+            vim.cmd.colorscheme "vscode"
         end
     },
     {
