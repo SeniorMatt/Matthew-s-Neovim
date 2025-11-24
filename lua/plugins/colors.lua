@@ -13,9 +13,11 @@ return {
         -- vim.cmd.colorscheme "onedark"
         -- "morhetz/gruvbox",
         -- vim.cmd.colorscheme "gruvbox"
-        "Mofiqul/vscode.nvim",
+        -- "Mofiqul/vscode.nvim",
+        -- vim.cmd.colorscheme "vscode"
+        "sainnhe/everforest",
         config = function()
-            vim.cmd.colorscheme "vscode"
+            vim.cmd.colorscheme "everforest"
         end
     },
     {
@@ -25,7 +27,7 @@ return {
             "nvim-tree/nvim-web-devicons",
         },
         opts = {
-            theme = 'onedark',
+            theme = 'everforset',
             sections = {
                 lualine_a = { 'mode' },
                 lualine_b = { 'branch', 'diff', 'diagnostics' },
