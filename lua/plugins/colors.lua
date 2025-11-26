@@ -15,11 +15,11 @@ return {
         -- vim.cmd.colorscheme "gruvbox"
         -- "Mofiqul/vscode.nvim",
         -- vim.cmd.colorscheme "vscode"
-        -- "sainnhe/everforest",
-        -- vim.cmd.colorscheme "everforest"
-        "kdheepak/monochrome.nvim",
+        -- "kdheepak/monochrome.nvim",
+        -- vim.cmd.colorscheme "monochrome"
+        "sainnhe/everforest",
         config = function()
-            vim.cmd.colorscheme "monochrome"
+            vim.cmd.colorscheme "everforest"
         end
     },
     {
