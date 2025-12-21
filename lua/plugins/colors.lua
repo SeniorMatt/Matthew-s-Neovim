@@ -17,9 +17,11 @@ return {
         -- vim.cmd.colorscheme "vscode"
         -- "kdheepak/monochrome.nvim",
         -- vim.cmd.colorscheme "monochrome"
-        "sainnhe/everforest",
+        -- "sainnhe/everforest",
+        -- vim.cmd.colorscheme "everforest"
+        "mellow-theme/mellow.nvim",
         config = function()
-            vim.cmd.colorscheme "everforest"
+            vim.cmd.colorscheme "mellow"
         end
     },
     {
