@@ -110,7 +110,7 @@ return {
 
                 omnisharp = function()
                     require('lspconfig').omnisharp.setup({
-                        cmd = { vim.fn.expand("~/Documents/omnisharp/OmniSharp.dll"), "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
+                        cmd = { vim.fn.expand("~/Documents/applications/omnisharp/OmniSharp.dll"), "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
                     })
                 end,
                 lua_ls = function()

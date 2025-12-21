@@ -1,7 +1,7 @@
 # Matthew-s-Neovim
 
 ## Requirements
-1. You need to have **Omnisharp** installed inside your `~/Documents/omnisharp` folder.
+1. You need to have **Omnisharp** installed inside your `~/Documents/applications/omnisharp` folder.
 2. You need a nerd terminal font
 
 1 - You can do that by going to the official GitHub repo:
