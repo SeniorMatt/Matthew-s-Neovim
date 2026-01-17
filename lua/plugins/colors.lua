@@ -19,9 +19,11 @@ return {
         -- vim.cmd.colorscheme "monochrome"
         -- "sainnhe/everforest",
         -- vim.cmd.colorscheme "everforest"
-        "mellow-theme/mellow.nvim",
+        -- "mellow-theme/mellow.nvim",
+        -- vim.cmd.colorscheme "mellow"
+        "nyoom-engineering/oxocarbon.nvim",
         config = function()
-            vim.cmd.colorscheme "mellow"
+            vim.cmd.colorscheme "oxocarbon"
         end
     },
     {
@@ -31,7 +33,7 @@ return {
             "nvim-tree/nvim-web-devicons",
         },
         opts = {
-            theme = 'everforset',
+            theme = 'auto',
             sections = {
                 lualine_a = { 'mode' },
                 lualine_b = { 'branch', 'diff', 'diagnostics' },
