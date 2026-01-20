@@ -100,18 +100,12 @@ return {
         require('mason-lspconfig').setup({
             ensure_installed = {
                 "lua_ls",
-                "omnisharp",
+                "csharp_ls",
             },
             handlers = {
                 function(server_name)
                     if server_name == "lua_ls" then return end -- avoid starting with {}
                     require('lspconfig')[server_name].setup({})
-                end,
-
-                omnisharp = function()
-                    require('lspconfig').omnisharp.setup({
-                        cmd = { vim.fn.expand("~/Documents/applications/omnisharp/OmniSharp.dll"), "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
-                    })
                 end,
                 lua_ls = function()
                     require('lspconfig').lua_ls.setup({
