@@ -1,29 +1,9 @@
-local function enable_transparency()
-    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-end
 return {
     {
         -- Theme
-        -- "folke/tokyonight.nvim",
-        -- vim.cmd.colorscheme "tokyonight"
-        -- enable_transparency()
-        --"catppuccin/nvim",
-        -- vim.cmd.colorscheme "catppuccin"
-        -- "navarasu/onedark.nvim",
-        -- vim.cmd.colorscheme "onedark"
-        -- "morhetz/gruvbox",
-        -- vim.cmd.colorscheme "gruvbox"
-        -- "Mofiqul/vscode.nvim",
-        -- vim.cmd.colorscheme "vscode"
-        -- "kdheepak/monochrome.nvim",
-        -- vim.cmd.colorscheme "monochrome"
-        -- "sainnhe/everforest",
-        -- vim.cmd.colorscheme "everforest"
-        -- "mellow-theme/mellow.nvim",
-        -- vim.cmd.colorscheme "mellow"
-        "nyoom-engineering/oxocarbon.nvim",
+        "ellisonleao/gruvbox.nvim",
         config = function()
-            vim.cmd.colorscheme "oxocarbon"
+            vim.cmd.colorscheme "gruvbox"
         end
     },
     {
