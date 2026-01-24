@@ -9,8 +9,8 @@ return {
             highlight = { enable = true, },
             indent = { enable = true },
             autotage = { enable = true },
-            ensure_installed = { "lua", "c_sharp" },
-            auto_install = false,
+            ensure_installed = { "markdown", "lua", "c_sharp" },
+            auto_install = true,
         })
         vim.keymap.set("n", "<C-h>", "<C-w>h")
         vim.keymap.set("n", "<C-j>", "<C-w>j")
