@@ -107,6 +107,13 @@ return {
                     if server_name == "lua_ls" then return end -- avoid starting with {}
                     require('lspconfig')[server_name].setup({})
                 end,
+                csharp_ls = function()
+                    require("lspconfig").csharp_ls.setup({
+                        get_language_id = function(_, ft)
+                            return (ft == "cs") and "csharp" or ft
+                        end,
+                    })
+                end,
                 lua_ls = function()
                     require('lspconfig').lua_ls.setup({
                         settings = {

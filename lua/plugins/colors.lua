@@ -1,9 +1,11 @@
 return {
     {
         -- Theme
-        "ellisonleao/gruvbox.nvim",
+        "catppuccin/nvim",
+        -- "aikhe/fleur.nvim",
         config = function()
-            vim.cmd.colorscheme "gruvbox"
+            vim.cmd.colorscheme "catppuccin-mocha"
+            -- vim.cmd.colorscheme "fleur"
         end
     },
     {
